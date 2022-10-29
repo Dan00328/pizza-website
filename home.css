@@ -2,12 +2,13 @@
     font-size: 2em;
   font-weight: bold;
   -webkit-text-stroke: 1px rgb(238, 11, 11);
+  display: flex;
 }
 body{
     background-color: #f0c400;
-    display: flex;
-  align-items: center;
-  height: 95vh;
 
-  
+}
+.container{
+align-items: center ;
+
 }
