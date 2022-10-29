@@ -1,0 +1,17 @@
+.meniubackground{
+    background-image: url("background.jpg");
+}
+
+.meniutext{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.test {
+    width: 200px;
+    height: 400px;
+    background: rgb(209, 208, 208);
+    border: 1px rgb(209, 208, 208);
+    padding: 10px;
+    margin: 10px;
+  }
