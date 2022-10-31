@@ -1,0 +1,14 @@
+.titlu{
+    font-size: 2em;
+  font-weight: bold;
+  -webkit-text-stroke: 1px rgb(238, 11, 11);
+  display: flex;
+}
+body{
+    background-color: #f0c400;
+
+}
+.container{
+align-items: center ;
+
+}
