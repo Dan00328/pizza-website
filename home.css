@@ -2,6 +2,7 @@
   margin: 0;
   scroll-behavior: smooth;
   font-family: 'Romanesco';
+  user-select: none;
 }
 body{
     background-color: rgb(86, 29, 94);
@@ -9,7 +10,7 @@ body{
 }
 .nord{
 height: 95vh;
-background-image: url(https://img.freepik.com/free-vector/blackboard-background-with-pizza_23-2148907816.jpg?w=2000);
+background-image: url("./images/background-image.jpg");
 display: flex;
 align-items: center;
 background-size: cover;
@@ -39,6 +40,7 @@ color: #ee1111;
   width: 140px;
   border-radius:20px;
   font-size: 2em;
+  
 }
 .button-oferte{
  background-color: #ee1111;
@@ -76,11 +78,11 @@ color: #FFC000;
   text-shadow: 
     0 0 7px #ffffff,
     0 0 10px #ffffff,
-    0 0 20px #ffffff,
-    0 0 40px #ffbf00,
-    0 0 80px #ffbf00,
-    0 0 90px #ffbf00,
-    0 0 100px #FFC000;
+    0 0 15px #ffffff,
+    0 0 25px #ffbf00,
+    0 0 35px #ffbf00,
+    0 0 45px #ffbf00,
+    0 0 55px #FFC000;
 
 }
 .sud{
