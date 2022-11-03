@@ -1,0 +1,44 @@
+.meniubackground{
+    background-image: url("background.jpg");
+}
+
+.meniutext{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.caseta {
+    width: 250px;
+    height: 350px;
+    background: rgba(209, 208, 208, 0.445);
+    border: 1px rgba(209, 208, 208, 0.455);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+.pizzatext {
+    font-family:cursive;
+    font-size: 17px;
+}
+
+.button {
+    background-color: #dd7234; /* Green */
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+  
+.navigatie {
+    height: 5vh;
+    background-color: #f66c1c;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
