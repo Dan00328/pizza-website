@@ -11,7 +11,7 @@ body {
 }
 
 .nord {
-  height: 100vh;
+  height: 110vh;
   background-image: url("./images/background-home.webp");
   display: flex;
   align-items: center;
@@ -30,7 +30,6 @@ body {
 .optiongroup{
   text-align: end;
   width: 1800px;
-  
 }
 
 .option {
