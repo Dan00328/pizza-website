@@ -11,8 +11,8 @@ body {
 }
 
 .nord {
-  height: 95vh;
-  background-image: url("./images/background-image.jpg");
+  height: 100vh;
+  background-image: url("./images/background-home.webp");
   display: flex;
   align-items: center;
   background-size: cover;
@@ -80,25 +80,26 @@ body {
 }
 
 .nord-titlu {
-  font-size: 6em;
+  font-size: 15em;
   font-weight: bolder;
   color: #ee1111;
 }
 
 .nord-subtitlu {
-  font-size: 3em;
+  font-size: 6em;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #ee1111;
 }
 
 .button {
-  height: 60px;
-  width: 140px;
+  height: 100px;
+  width: 200px;
   border-radius: 20px;
-  font-size: 2em;
+  font-size: 3em;
   border: none;
   cursor:pointer;
+  margin: 20px;
 }
 
 .button-oferte {
@@ -110,7 +111,7 @@ body {
   background-color: #FFC000;
   color: #ee1111;
   transition: 0.5s;
-  box-shadow: inset 0 0 2rem #ee1111;
+  box-shadow: inset 0 0 3rem #ee1111;
 }
 
 .button-meniu {
@@ -122,7 +123,7 @@ body {
   background-color: #302a2a;
   color: #FFC000;
   transition: 0.5s;
-  box-shadow: inset 0 0 2rem #FFC000;
+  box-shadow: inset 0 0 3rem #FFC000;
 }
 
 .button-comanda {
@@ -134,7 +135,7 @@ body {
   background-color: #FFC000;
   color: rgb(86, 29, 94);
   transition: 0.5s;
-  box-shadow: inset 0 0 2rem rgb(86, 29, 94);
+  box-shadow: inset 0 0 3rem rgb(86, 29, 94);
 }
 
 .neon {
