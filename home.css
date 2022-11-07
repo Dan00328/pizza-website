@@ -8,7 +8,9 @@
 
 body {
   background-color: rgb(86, 29, 94);
-
+margin:0%;
+height: 100%;
+overflow: hidden;
 }
 
 .nord {
@@ -63,8 +65,6 @@ body {
 .button-2{
   border: none;
   background-color: #FFC000 ;
-  
-  
 }
 
 
@@ -75,7 +75,7 @@ body {
 
 .nord-castle {
   margin-left: 3em;
-  
+  height: 700px;
 }
 
 .nord-titlu {
@@ -151,5 +151,5 @@ body {
 }
 
 .sud {
-  height: 100vh;
+  height: 500vh;
 }
