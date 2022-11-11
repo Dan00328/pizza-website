@@ -79,7 +79,7 @@ overflow: hidden;
 }
 
 .nord-titlu {
-  font-size: 15em;
+  font-size: 14em;
   font-weight: bolder;
   color: #ee1111;
 }
@@ -151,5 +151,86 @@ overflow: hidden;
 }
 
 .sud {
-  height: 500vh;
+  height: 90vh;
+  padding-top: 1em;
+ background-color: #302a2a;
+  background-repeat: no-repeat;
+  background-size: cover;
+ box-shadow: inset 0 0 3rem rgb(165, 122, 82);
+ background-image: url("./images/oferta-background.jpg");
+}
+.total{
+  width:fit-content;
+  margin: 10px auto;
+ 
+  padding: 10px;
+
+display: flex;
+}
+.oferta-titlu{
+  font-weight: bolder;
+  color: #ee1111;
+font-size: 40px;
+height: 100px;
+margin-top: 70px;
+text-align: center;
+
+
+
+}
+.oferta1{
+  font-size: 40px;
+  padding: 5px;
+ border-radius: 100px;
+  
+  margin: 5px;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  color: #ee1111;
+text-align: center;
+padding-top: 5% ;
+
+}
+
+.oferta2{
+  box-shadow:0 0 7rem #ffffff;
+  padding: 5px;
+ border-radius: 500px;
+ 
+  margin: 5px;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-image: url(./images/idk.jpg);
+  background-size: cover;
+}
+.button3{
+  height: 60px;
+  width: 500px;
+  display: inline-block;
+  margin-left: 35%;
+  border-radius: 20px;
+  background-color: #ee1111;
+  color: #FFC000;
+  border: none;
+  font-size: 35px;
+}
+.button3:hover {
+  background-color: #FFC000;
+  color: #ee1111;
+  transition: 0.5s;
+  box-shadow: inset 0 0 1rem #ee1111;
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.oferta3{
+  box-shadow: 0 0 7rem #ffffff;
+  padding: 5px;
+ border-radius: 500px;
+  margin: 5px;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-image: url(./images/cupon-reducere-carturesti.png);
+  background-size: cover;
 }
