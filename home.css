@@ -19,7 +19,7 @@ overflow: hidden;
 }
 
 .nord {
-  padding-top: 10em;
+  padding-top: 15em;
   height: 100vh;
   background-image: url("./images/backgroundmeniu2.jpg");
   display: flex;
