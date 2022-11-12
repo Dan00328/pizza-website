@@ -14,7 +14,7 @@ overflow: hidden;
 }
 
 .nord {
-  height: 110vh;
+  height: 150vh;
   background-image: url("./images/backgroundmeniu2.jpg");
   display: flex;
   align-items: center;
@@ -30,12 +30,7 @@ overflow: hidden;
   justify-content: space-between;
   width:100%;
 }
-.noVisible{
-  display: none;
-}
-.visible{
-  display: initial;
-}
+
 .option {
   font-size: 40px;
   margin:  10px;
@@ -74,6 +69,7 @@ overflow: hidden;
 }
 
 .nord-castle {
+  
   margin-left: 3em;
   height: 700px;
 }
@@ -151,7 +147,7 @@ overflow: hidden;
 }
 
 .sud {
-  height: 110vh;
+  height: 150vh;
   padding-top: 1em;
  background-color: #302a2a;
   background-repeat: no-repeat;
