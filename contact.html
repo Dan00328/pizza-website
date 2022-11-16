@@ -2,45 +2,51 @@
 <html>
   <head>
     <link rel="stylesheet" href="./contact.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap"
+      rel="stylesheet">
   </head>
   <body>
-    <div>
-      <div class="contact-header">
+    <div class="stickyHeader"><img class="logo"
+        src="./images/classic-logo1.png"><div>
+        <a
+          href="home.html"> <button
+            class="option button-2 ">Home</button></a>
+        <a
+          href="meniu.html"> <button
+            class="option button-2">Meniu</button></a>
+        <a
+          href="contact.html"> <button
+            class="option button-2">Contact</button></a></div></div>
 
-      </div>
-      <div class="contact-container">
-        <div>
-          <form class="contact-form">
-            <div class="contact-input">
-              <label for="fname">Nume :</label><br>
-              <input type="text" id="fname" name="fname"><br>
-            </div>
-            <div class="contact-input">
-              <label for="fname">Prenume :</label><br>
-              <input type="text" id="fname" name="fname"><br>
-            </div>
-            <div class="contact-input">
-              <label for="fname">Adresa :</label><br>
-              <input type="text" id="fname" name="fname"><br>
-            </div>
+    <div class="contact-container">
+      <div>
+        <form class="contact-form">
 
-            <input type="checkbox" id="vehicle1" name="vehicle1"
-              value="Bike">
-            <label for="vehicle1"> Pizza 1</label><br>
-            <input type="checkbox" id="vehicle2" name="vehicle2"
-              value="Car">
-            <label for="vehicle2"> Pizza 2</label><br>
-            <input type="checkbox" id="vehicle3" name="vehicle3"
-              value="Boat">
-            <label for="vehicle3"> Pizza 3</label><br/>
-              <button>Comanda</button>
-            </form>
+          <div class="contact-input">
+            <label>Nume: </label><br>
+            <input type="text"><br>
           </div>
-          <div>
-            <img class="contact-image" src="./images/background-image.jpg" width="100%"/>
+          <div class="contact-input">
+            <label>Prenume:</label><br>
+            <input type="text"><br>
           </div>
-        </div>
-        <div class="contact-footer"></div>
+          <div class="contact-input">
+            <label>Adresa: </label><br>
+            <input type="text"><br>
+          </div>
+
+
+          <label> Pizza 1</label><input type="checkbox">
+          <label> Pizza 1</label><input type="checkbox">
+          <label> Pizza 1</label><input type="checkbox">
+
+          <br>
+          <button>Comanda</button>
+        </form>
       </div>
-    </body>
-  </html>
+
+    </div>
+
+  </body>
+</html>
