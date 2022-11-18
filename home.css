@@ -72,6 +72,7 @@ overflow: hidden;
 .logo {
   height: 80px;
   width: 110px;
+ 
 }
 
 .nord-castle {
@@ -152,6 +153,13 @@ overflow: hidden;
     0 0 55px #FFC000;
 
 }
+.container-nr{
+  display: flex;
+}
+.numar{
+  font-size: 80px;
+  margin-left: 0;
+}
 
 .sud {
   height: 130vh;
@@ -219,11 +227,12 @@ padding-top: 5% ;
   .nord{
     padding-top: 9em;
     height: 90vh;
-    background-position: 500em;
+   
   }
   .nord-castle{
     display:inline-block;
     text-align: center;
+    margin-left: 1em;
   }
   .nord-titlu{
     font-size: 9em;
@@ -243,7 +252,7 @@ padding-top: 5% ;
     margin: 20px;
   }
   .option{
-    margin-right: 10px;
+    margin-right: 2px;
   }
   .sud {
     height: 130vh;
@@ -269,7 +278,7 @@ padding-top: 5% ;
     color: #ee1111;
   font-size: 35px;
   height: 100px;
-  margin-top: 100px;
+  margin-top: 60px;
   text-align: center;
 }
 
